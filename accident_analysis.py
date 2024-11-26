@@ -19,7 +19,7 @@ import plotly.express as px
 # configure glob and search path for files
 # Here, we want to search the input directory for CSV files.
 # add the path to your unique folder.
-data = pd.read_csv("C:\\Users\Praveen Kumar\OneDrive\Desktop\Mobility Eng 2023\Data Science\Assignment 1\crash data\crash_data_queensland_1_crash_locations (2).csv")
+data = pd.read_csv("crash_data_queensland_1_crash_locations (2).csv")
 
 pd.set_option('display.max_columns', None)
 
