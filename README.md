@@ -1,7 +1,7 @@
 
 # Road Safety Analysis
 
-This project aims to **identify the severity of road accidents** based on given crash data. By analyzing the data, we strive to **minimize accident rates** and **maximize public safety** by providing insights and actionable recommendations.
+This project aims to **identify the severity of road accidents** based on given crash data in Queensland, Australia. By analyzing the data, we strive to **minimize accident rates** and **maximize public safety** by providing insights and actionable recommendations.
 
 ---
 
