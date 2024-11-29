@@ -83,16 +83,20 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 
 #### Street-wise Accident Distribution
 
-- **Top Streets**: Bruce Highway (highest), Pacific Highway (second highest).  
-- Focus on improving safety measures on these high-risk roads.
+- **Top Streets**: Bruce Highway (highest), Gold Coast Hwy (second highest).  
+- Focus should be on improving safety measures on these high-risk roads.
+- <img src="image/street.png" alt="Streetwise Crash" width="500"/> 
 
 #### Nature of Crashes
 
 - **Top Three Crash Natures**:  
-  - **Angle Accidents**: 111,049 cases.  
-  - **Rear-End Collisions**: 92,892 cases.  
-  - **Hit Object**: 81,644 cases.  
-- **Visualization**: Bar chart comparing crash nature frequencies.
+  - **Angle Accidents**: 111,049 cases.
+  - When two vehicles collide at an angle, often at intersections.
+  - **Rear-End Collisions**: 92,892 cases.
+  - When a vehicle collides with the rear of another vehicle. 
+  - **Hit Object**: 81,644 cases.
+  - When a vehicle collides with a stationary object, such as a barrier, pole, or tree.
+- <img src="image/nature.png" alt="Nature of Crash" width="500"/> 
 
 #### Lighting and Weather Conditions
 
