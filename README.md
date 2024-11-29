@@ -5,8 +5,16 @@ This project aims to **identify the severity of road accidents** based on given 
 
 ---
 
+## Project Overview
+
+- **Target Variable**: `Crash_Severity` (categorical).
+- **Objective**: Analyze crash data to predict accident severity, identify patterns, and derive actionable insights for improving public safety.
+
+---
+
 ## Dataset Description
 
+- **Dataset**: `crash_data_queensland_1_crash_locations.csv`  
 The dataset, **`crash_data_queensland_1_crash_locations.csv`**, provides detailed information on road accidents in Queensland. Below is the structure of the dataset:
 
 | **Column Name**                 | **Description**                                                                 |
@@ -29,10 +37,11 @@ The dataset, **`crash_data_queensland_1_crash_locations.csv`**, provides detaile
 
 ---
 
-## Project Overview
+## Tools and Libraries
 
-- **Target Variable**: `Crash_Severity` (categorical).
-- **Objective**: Analyze crash data to predict accident severity, identify patterns, and derive actionable insights for improving public safety.
+- **Libraries**: `pandas`, `numpy`, `matplotlib`, `sweetviz`.  
+- **Visualization**: Heatmaps, histograms, pie charts, and bar graphs.  
+- **Modeling**: Logistic Regression, KNN, Decision Tree, Random Forest.  
 
 ---
 
@@ -192,19 +201,8 @@ This comprehensive analysis provides valuable insights into road safety, helping
 
 ---
 
-## Tools and Libraries
-
-- **Libraries**: `pandas`, `numpy`, `matplotlib`, `sweetviz`.  
-- **Visualization**: Heatmaps, histograms, pie charts, and bar graphs.  
-- **Modeling**: Logistic Regression, KNN, Decision Tree, Random Forest.  
-
----
-
 ## Files
 
 - **Dataset**: `crash_data_queensland_1_crash_locations.csv`  
 - **EDA Report**: `EDA.html`  
 
---- 
-
-For further inquiries or collaborations, feel free to connect! 😊 
