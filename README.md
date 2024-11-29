@@ -163,11 +163,16 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 
 - Dropped columns with:
   - **Low Correlation** (< 0.15) with the target variable.  
-  - **High Variance Inflation Factor (VIF)** (> 5).  
+  - **High Variance Inflation Factor (VIF)** (> 5).
+  - `Crash_Year`, `Crash_Hour`, `Count_Casualty_Fatality`, `Count_Unit_Motorcycle_Moped`, `Count_Unit_Truck`, `Count_Unit_Bus`, `Count_Unit_Bicycle`, `Count_Unit_Other`
+ 
 
 ### Dimensionality Reduction
 
-- Highly correlated columns (`Count_Casualty_Total` and `Count_Casualty_MedicallyTreated`) were combined using **PCA**.
+- Heatmap was drawn and high correlation was found between (`Count_Casualty_Total` and `Count_Casualty_MedicallyTreated`) and (`Crash_Latitude` and `Crash_Longitude`)
+- <img src="image/corrbef.png" alt="Correlation matrix" width="500"/>
+- These columns were combined using **PCA**.
+- <img src="image/corr.png" alt="Correlation matrix" width="500"/>
 
 ### Label Encoding
 
@@ -191,12 +196,18 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 
 #### Logistic Regression
 
-- **Validation Accuracy**: 99.98%  
+- **Test Accuracy**: 99.98%
+- We cannot induce the logic behind the model for classification, so we try KNN
 
 #### K-Nearest Neighbors (KNN)
 
-- Used the **elbow method** to determine the optimal value of `k`.  
-- **Test Accuracy**: 80% at `k=20`.  
+- Used the **elbow method** to determine the optimal value of `k`.
+- <img src="image/knnelbow.png" alt="Elbow method" width="500"/>
+- The accuracy flatlines after 0.8 with k = 20
+- **Test Accuracy**: 80% at `k=20`.
+- The learning curve of the KNN model with training and test data is drawn
+- <img src="image/knnlearcurve.png" alt="KNN learning curve" width="500"/>
+- The accuracy of the model does not improve beyond .82 after k=20
 - Observations: KNN is sensitive to noise, and crash data is inherently noisy, limiting its performance.
 
 #### Decision Tree
