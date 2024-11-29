@@ -45,6 +45,7 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 1. **Total Accidents**: 374,214  
 2. **Total Injuries**: 287,678  
 3. **Property Damage Only**: 86,536 cases  
+**Sweetviz Analysis**: Comprehensive visual report of the dataset is stored in [**sales EDA.html**](./Sales%20EDA.html).  
 
 ---
 
