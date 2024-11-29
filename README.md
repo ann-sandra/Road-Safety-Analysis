@@ -106,7 +106,7 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 #### Lighting and Weather Conditions
 
 - Most accidents occurred during the day under clear weather conditions.  
-- <img src="image/Lighting.png" alt="Lighting Crash" width="500"/>
+- <img src="image/lighting.png" alt="Lighting Crash" width="500"/>
 - Therefore, visibility or weather has not been the main cause for accidents
 
 #### Speed Limit Impact
@@ -139,9 +139,17 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 #### Pedestrian Crashes
 
 - Analyzed crashes involving pedestrians by roadway features, time, and age groups.
-- <img src="image/lockdown.png" alt="Lockdown feature" width="500"/>
-- Suggested measures include enhancing street lighting, increasing pedestrian safety education, and implementing traffic calming measures.  
-- 
+- **Distribution of Pedestrian crashes based on Roadway features**
+- <img src="image/roadwayfeature.png" alt="Roadway feature" width="500"/>
+- Most of the pedestrian crashes occur at intersections, suggesting a stringent road crossing rule to be implemented.
+- **Distribution of Pedestrian crashes by hour**
+- <img src="image/pedcrash.png" alt="Pedestrian crash" width="500"/>
+- Most of the pedestrian crashes occur around 3PM
+- **Distribution of Pedestrian crashes by age**
+- <img src="image/pedage.png" alt="Pedestrian crash" width="500"/>
+- The pedestrian crashes decrease with age, with 0-16 having the most crashes and 75+ the least
+- Suggested measures include enhancing street lighting, increasing pedestrian safety education, and implementing traffic calming measures for road crossing.  
+  
 
 ---
 
