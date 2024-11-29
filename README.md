@@ -248,7 +248,8 @@ The **Decision Tree** was selected as the final model due to its high accuracy a
    - High-risk streets and suburbs were identified for targeted interventions.  
 
 2. **Recommendations**:
-   - Enhance street lighting and install traffic calming measures and traffic police in high-risk areas.  
+   - Enhance street lighting and install traffic calming measures and traffic police in high-risk areas.
+   - Improve the road traffic flow at intersections with better infrastructures to avoid crashes 
    - Focus safety campaigns on peak accident times and locations.  
    - Improve pedestrian safety through better infrastructure and education to young people.  
 
