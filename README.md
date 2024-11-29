@@ -170,7 +170,6 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 ### Dimensionality Reduction
 
 - Heatmap was drawn and high correlation was found between (`Count_Casualty_Total` and `Count_Casualty_MedicallyTreated`) and (`Crash_Latitude` and `Crash_Longitude`)
-- <img src="image/corrbef.png" alt="Correlation matrix" width="500"/>
 - These columns were combined using **PCA**.
 - <img src="image/corr.png" alt="Correlation matrix" width="500"/>
 
