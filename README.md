@@ -14,8 +14,9 @@ This project aims to **identify the severity of road accidents** based on given 
 
 ## Dataset Description
 
-**Dataset**: `crash_data_queensland_1_crash_locations.csv`  
-The dataset, **`crash_data_queensland_1_crash_locations.csv`**, provides detailed information on road accidents in Queensland. Below is the structure of the dataset:
+**Dataset**: `crash_data_queensland_1_crash_locations.csv` 
+
+The dataset provides detailed information on road accidents in Queensland. Below is the structure of the dataset:
 
 | **Column Name**                 | **Description**                                                                 |
 |---------------------------------|---------------------------------------------------------------------------------|
