@@ -101,13 +101,21 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 #### Lighting and Weather Conditions
 
 - Most accidents occurred during the day under clear weather conditions.  
-- **Visualization**: Distribution charts of lighting and atmospheric conditions.
+- <img src="image/Lighting.png" alt="Lighting Crash" width="500"/>
+- Therefore, visibility or weather has not been the main cause for accidents
 
 #### Speed Limit Impact
 
-- Majority of crashes occurred at a speed limit of **60 km/h**.  
-- **Visualization**: Bar chart of accidents by speed limit.
+- Majority of crashes occurred at a speed limit of **60 km/h**.
+- <img src="image/speedlimit.png" alt="Speedlimit" width="500"/>
+- Lower speedlimits resulted in lesser number of accidents
 
+#### Roadway feature Impact
+
+- Majority of crashes occurred at **Intersections**.
+- <img src="image/road.png" alt="Roadway feature" width="500"/>
+- More rules should be imposed on intersections, to prevent crashes and ensure safe transportation
+  
 #### Lockdown Impact Analysis
 
 - Analyzed crashes during the lockdown period (2020-01-01 to 2021-04-01).  
