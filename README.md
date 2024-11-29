@@ -72,13 +72,14 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 
 - Accident rates declined in recent years.  
 - The highest accident rates occurred between **2000 and 2010**, averaging 22,508 accidents annually.  
-- **Visualization**: Line graph illustrating trends.
+- <img src="image/yearwise.png" alt="Yearwise trend" width="500"/> 
 
 #### Time Distribution
 
-- Accidents occurred evenly across months.  
+- Accidents occurred evenly across months.
+- <img src="image/month.png" alt="Monthwise trend" width="500"/>  
 - The majority of accidents occurred between **3 PM and 5 PM**, averaging **30,330 accidents**.  
-- **Visualization**: Time-series and pie charts.
+- <img src="image/hour.png" alt="Hourwise Crash" width="500"/> 
 
 #### Street-wise Accident Distribution
 
