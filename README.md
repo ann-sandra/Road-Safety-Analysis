@@ -63,9 +63,10 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 
 #### Crash Severity Distribution
 
-- Most crashes resulted in **medical treatment** or **hospitalization**.  
+- Most crashes resulted in **medical treatment** or **hospitalization**.
+- <img src="image/crashsev.png" alt="Crash severity" width="500"/>  
 - Fatalities accounted for only **0.901%** of crashes.  
-- **Visualization**: A histogram and pie chart show the frequency of severity levels.
+- <img src="image/piecrashsev.png" alt="Crash severity" width="500"/> 
 
 #### Year-wise Accident Trends
 
