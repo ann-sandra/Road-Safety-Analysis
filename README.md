@@ -96,7 +96,12 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
   - When a vehicle collides with the rear of another vehicle. 
   - **Hit Object**: 81,644 cases.
   - When a vehicle collides with a stationary object, such as a barrier, pole, or tree.
-- <img src="image/nature.png" alt="Nature of Crash" width="500"/> 
+- <img src="image/nature.png" alt="Nature of Crash" width="500"/>
+
+#### Crash Types
+
+- Most of the crashes occurred are multi-vehicle with total pedestrian accidents at 16,635.
+- <img src="image/type.png" alt="Crash type" width="500"/>  
 
 #### Lighting and Weather Conditions
 
@@ -136,7 +141,7 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 - Analyzed crashes involving pedestrians by roadway features, time, and age groups.
 - <img src="image/lockdown.png" alt="Lockdown feature" width="500"/>
 - Suggested measures include enhancing street lighting, increasing pedestrian safety education, and implementing traffic calming measures.  
-- **Visualization**: Multiple bar charts and distribution graphs.
+- 
 
 ---
 
