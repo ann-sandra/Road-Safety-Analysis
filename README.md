@@ -120,7 +120,7 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 
 - Analyzed crashes during the lockdown period (2020-01-01 to 2021-04-01).  
 - **Findings**: Significant reduction in both accident frequency and severity during the lockdown compared to pre- and post-lockdown periods.  
-- **Visualization**: Bar charts comparing periods.
+- <img src="image/lockdown.png" alt="Lockdown feature" width="500"/>
 
 #### Spatial Characteristics
 
