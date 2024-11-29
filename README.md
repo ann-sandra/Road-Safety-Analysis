@@ -223,7 +223,7 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
   - <img src="image/vsalpha.png" alt="Tree size VS alpha" width="500"/>
   - **Accuracy VS Alpha**
   - <img src="image/accvsalpha.png" alt="Accuracy VS alpha" width="500"/>
-    The accuracy does not differ significantly between training and test sets meaning the model has generalised well.
+  - The accuracy does not differ significantly between training and test sets meaning the model has generalised well.
   - Selected **alpha = 0.0026** for the best trade-off between bias and variance and minimal difference in accuracy between training and test dataset
   - **The final decision tree**:
   - <img src="image/dt.png" alt="Decision tree" width="500"/>
