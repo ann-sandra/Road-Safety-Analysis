@@ -211,14 +211,25 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 
 #### Decision Tree
 
-- **Parameters**: `max_depth=10`  
+- **Parameters**: `max_depth=10` `criterion=gini` `minimum samples to split=300` `minimum samples in leaf=100` `alpha=.0026`
 - **Validation Accuracy**: 99.19%  
-- **Feature Importance**: Visualized feature contributions to the model.  
-- Conducted **hyperparameter tuning** to find the optimal **ccp_alpha** value:  
-  - Selected **alpha = 0.0026** for the best trade-off between bias and variance.
+- **Feature Importance**: Visualized feature contributions to the model.
+- <img src="image/featureimp.png" alt="Feature Importance" width="500"/>
+- Conducted **hyperparameter tuning** to find the optimal **ccp_alpha** value:
+  - The various parameters are modelled to observe the changes in impurity and size of the tree with alpha to identify the ideal alpha to prune the decision tree
+  - **Gini impurity VS Alpha**
+  - <img src="image/knnlearcurve.png" alt="Impurity VS alpha" width="500"/>
+  - **Tree size VS Alpha**
+  - <img src="image/vsalpha.png" alt="Tree size VS alpha" width="500"/>
+  - **Accuracy VS Alpha**
+  - <img src="image/accvsalpha.png" alt="Accuracy VS alpha" width="500"/>
+    The accuracy does not differ significantly between training and test sets meaning the model has generalised well.
+  - Selected **alpha = 0.0026** for the best trade-off between bias and variance and minimal difference in accuracy between training and test dataset
+  - **The final decision tree**:
+  - <img src="image/dt.png" alt="Decision tree" width="500"/>
 
 #### Random Forest
-
+- **Parameters**: `max_depth=10` `criterion=gini` `minimum samples to split=300` `minimum samples in leaf=100`
 - **Validation Accuracy**: 97.61%  
 
 ---
