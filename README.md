@@ -115,6 +115,8 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 - Majority of crashes occurred at **Intersections**.
 - <img src="image/road.png" alt="Roadway feature" width="500"/>
 - More rules should be imposed on intersections, to prevent crashes and ensure safe transportation
+- A detailed examination of intersection with crash severity shows that medical treatment has the highest count in intersection and  hospitalisation is next.
+- <img src="image/crashsevroadway.png" alt="Crash Severity Roadway feature" width="500"/>
   
 #### Lockdown Impact Analysis
 
@@ -122,13 +124,17 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 - **Findings**: Significant reduction in both accident frequency and severity during the lockdown compared to pre- and post-lockdown periods.  
 - <img src="image/lockdown.png" alt="Lockdown feature" width="500"/>
 
+
 #### Spatial Characteristics
 
 - A **heatmap** was created to analyze the spatial distribution of accidents based on latitude and longitude.
+- <img src="image/spatheatmap.png" alt="Spatial heat map" width="500"/>
+- Most of the crashes occur along the coast
 
 #### Pedestrian Crashes
 
-- Analyzed crashes involving pedestrians by roadway features, time, and age groups.  
+- Analyzed crashes involving pedestrians by roadway features, time, and age groups.
+- <img src="image/lockdown.png" alt="Lockdown feature" width="500"/>
 - Suggested measures include enhancing street lighting, increasing pedestrian safety education, and implementing traffic calming measures.  
 - **Visualization**: Multiple bar charts and distribution graphs.
 
