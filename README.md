@@ -200,10 +200,5 @@ The **Decision Tree** was selected as the final model due to its high accuracy a
 
 This comprehensive analysis provides valuable insights into road safety, helping authorities prioritize areas for intervention and policy-making.
 
----
 
-## Files
-
-- **Dataset**: `crash_data_queensland_1_crash_locations.csv`  
-- **EDA Report**: `EDA.html`  
 
