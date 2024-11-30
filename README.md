@@ -218,7 +218,7 @@ EDA was conducted using **`pandas`**, **`matplotlib`**, and **`sweetviz`**. Key 
 - Conducted **hyperparameter tuning** to find the optimal **ccp_alpha** value:
   - The various parameters are modelled to observe the changes in impurity and size of the tree with alpha to identify the ideal alpha to prune the decision tree
   - **Gini impurity VS Alpha**
-  - <img src="image/knnlearcurve.png" alt="Impurity VS alpha" width="500"/>
+  - <img src="image/impvsalpha.png" alt="Impurity VS alpha" width="500"/>
   - **Tree size VS Alpha**
   - <img src="image/vsalpha.png" alt="Tree size VS alpha" width="500"/>
   - **Accuracy VS Alpha**
