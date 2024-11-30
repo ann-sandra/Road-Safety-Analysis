@@ -240,6 +240,16 @@ The **Decision Tree** was selected as the final model due to its high accuracy a
 
 ---
 
+## How to Run
+
+### **Pre-requisites**:
+1. Install the required libraries:
+   ```bash
+   pip install pandas numpy matplotlib sklearn sweetviz
+
+---
+
+
 ## Conclusions
 
 1. **Key Observations**:
